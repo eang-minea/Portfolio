@@ -1,12 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio By Eang Minea</title>
-    <link rel="stylesheet" href="">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Eang Minea | Portfolio</title>
 </head>
+
 <body>
-    
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#" class="logo">Eang Minea</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- HOME SECTION -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Hello</h3>
+            <h1>Eang Minea</h1>
+            <h3>And I'm a <span>web Developer</span></h3>
+
+            <p>
+                I create beautiful modern websites with responsive layouts,
+                smooth animations and clean user experiences.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="assets/photo2.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="assets/photo3.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <h3>Frontend Developer</h3>
+
+            <p>
+                I'm passionate about creating modern and beautiful websites.
+                I enjoy designing responsive interfaces and making websites
+                interactive with smooth animations and clean UI.
+            </p>
+
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+    <section class="services" id="services">
+
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Modern responsive websites using HTML, CSS,
+                    JavaScript and clean UI design.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+
+                <h3>UI / UX Design</h3>
+
+                <p>
+                    Beautiful and user-friendly designs with modern
+                    layouts and smooth experiences.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+
+                <h3>App Design</h3>
+
+                <p>
+                    Responsive mobile app interfaces with modern
+                    components and clean design systems.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="assets/photo6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Modern responsive portfolio website.</p>
+
+                    <a href="#">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/photo5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>UI Design</h4>
+                    <p>Creative user interface project design.</p>
+
+                    <a href="#">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/photo4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>App Design</h4>
+                    <p>Responsive mobile application concept.</p>
+
+                    <a href="#">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-text">
+            <p>© 2026 Eang Minea | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class='bx bx-up-arrow-alt'></i>
+            </a>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
